@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phodography NC</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/Java Script/multislider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<header>
+  <img src="./icons8-instagram-48.png" alt=""  style="margin-left: 30%;"><span>phodography_nc</span>
+  <img src="./icons8-gmail-48.png"><span>phodographync704@gmail.com</span>
+</header>
+
+<!-- Top Navigation Menu -->
+
+<div class="topnav">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+    <i class="fa fa-bars"></i> </a>
+    <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/PhodographyNC.jpg.JPG" style="width: 38%; margin-left: 50px;  display: inline-block;">
+  
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#aboutme">About Me</a>
+    <a href="#samplework">Sample Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contactbooking">Booking</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+  
+</div>
+  
+</div>
+<!--Sticky Navbar Will need to make sure it expands all the way down-->
+<div id="main-navbar" class="sticky-top">
+    <nav class="navbar navbar-expand-sm sticky-top" >
+            <div class="collapse navbar-collapse sticky-top" id="navbarNavAltMarkup">
+              <div class="navbar-nav sticky-top" >
+                <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/PhodographyNC.jpg.JPG" width="14%">
+                  <a class="nav-item nav-link navigationlinks" href="#aboutme">About Me</a>
+                  <a class="nav-item nav-link navigationlinks" href="#samplework">Sample Work</a>
+                  <a class="nav-item nav-link navigationlinks" href="#pricing">Pricing</a>
+                  <a class="nav-item nav-link navigationlinks" href="#contactbooking">Booking</a>
+                </div>
+              </div>
+            </nav>
+            </div>
+    <div id="exampleSlider">
+      <div class="MS-content">
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Bella/268A9241.JPG" alt=""  >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Allison & Colt/A&C-03.jpg" alt="" >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Jenan & MJ/268A6761.JPG" alt="" >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Catherine & Baller/C&B-22.jpg" alt="" >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Courtney_Maddie & Marley/A&C-134.jpg" alt="">
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Bella/268A6472.JPG" alt="" >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Allison & Colt/A&C-28.jpg" alt="" >
+          </div>
+          <div class="item">
+              <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Stephanie & Sonni/Steph_Sonni-02.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Catherine & Baller/C&B-28.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="./wetransfer_doggos_2021-09-14_0428/Phodography/Jenan & MJ/268A6894.JPG" alt="">
+      </div>
+      </div>
+</div>
+  
+
+   <!-- Include jQuery -->
+   <script src="./Java Script/jquery-2.2.4.min.js"></script>
+
+   <!-- Include Multislider -->
+   <script src="./Java Script/multislider.min.js"></script>
+
+   <!-- Initialize element with Multislider -->
+   <script>
+   $('#exampleSlider').multislider({
+       interval: 10000000,
+       slideAll: true,
+       duration: 15000,
+       continuous: true
+   });
+   </script>
+      
+     
+      
+
+  	
+  <!--About Me-->
+  <h2 class="toph2s">About Me</h2> 
+  <hr class="center">  
+  <div id="aboutme" class="aboutMe">
+
+      <div class="aboutMeContent">
+        <p class ="aboutMeContent">WELCOME to my site! I am so excited that you have taken an interest in scheduling a photoshoot with you and/or your pupper(s) 😊.
+          <br> <br> I just wanted to give a little background about myself and the business. First off, I’m located in the Charlotte area and I’ve been taking photos for approximately three years, originally through my previous job in the sports world, before stumbling upon this amazing idea that I believe all dog owners and lovers will enjoy. <span id="dots"></span><span id="more"> 
+          <br><br>The idea for this business originally came when I adopted my own pup (Bella) back in January of 2021. Shortly after rescuing her, I thought that it would be so cool to do a professional photoshoot with her. So, I took her to the park (in the freezing cold) and let her run around while I snapped photos of her with my camera and after an hour, I was like “Wow. I really just did a photoshoot for my dog... I would do anything for my dog! And I think all dog owners would do the same for theirs!”.  
+          With that, I started doing shoots with friends and their puppers which were a success! I genuinely enjoy getting to know people and hearing about their dogs’ impact on their life, because mine definitely changed my life. 
+          <br><br>So, if you want to schedule an appointment or even just chat about the business or your dog or anything else, please contact me at photographync704@gmail.com or on Instagram (@phodography_nc). I look forward to meeting you and your pup soon! 
+          </span>
+          <button onclick="myFunction()" id="myBtn">Read more</button></p>
+      </div>
+      <img class="aboutMePic" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Example Pic 3.PNG">
+
+      
+      
+
+  </div>
+  </div>
+  <br>
+  <br>
+  <div id="exampleSlider2">
+    <h2 id="samplework" class="toph2s">Sample Work</h2>
+    <hr class="center">
+    <div class="MS-content2">
+        <div id="test0" class="item2">
+          <div id="a&cslides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="a&cimage" class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Allison & Colt/A&C-03.jpg" alt="First slide">
+              </div>
+          </div>
+          <a id="prevbuttonac" class="carousel-control-prev"  role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="nextbuttonac" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        <div id="test1" class="item2">
+          <div id="c&bslides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="c&bimage" class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Catherine & Baller/C&B-03.jpg" alt="First slide">
+              </div>
+          </div>
+          <a id="prevbuttoncb" class="carousel-control-prev"  role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="nextbuttoncb"class="carousel-control-next"  role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        <div id="test2" class="item2">
+          <div id="c&mslides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="c&mimage" class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Courtney_Maddie & Marley/A&C-117.jpg" alt="First slide">
+              </div>
+          </div>
+          <a id="prevbuttoncm" class="carousel-control-prev"  role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="nextbuttoncm" class="carousel-control-next"  role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+
+        <div id="test3" class="item2">
+          <div id="c&tslides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="c&timage" class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Chloe, Tyson, Molly & Maggie/268A1604.JPG" alt="First slide">
+              </div>
+          </div>
+          <a id="prevbuttonct" class="carousel-control-prev"  role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="nextbuttonct" class="carousel-control-next"  role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        <div id="test4" class="item2">
+          <div id="j&mslides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="j&mimage" class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Jenan & MJ/268A6761.JPG" alt="First slide">
+              </div>
+          </div>
+          <a id="prevbuttonjm" class="carousel-control-prev"  role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="nextbuttonjm" class="carousel-control-next"  role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+
+
+        <div class="MS-controls2">
+          <button id="leftSample" onclick="leftshowhide()" class="MS-left2"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+          <button id ="rightSample" onclick="rightshowhide()" class="MS-right2"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+            <script>
+              let a = 0
+            function rightshowhide(){
+              a += 1;
+              var firstslides = document.getElementById('test0')
+              var secondslides = document.getElementById('test1')
+              var thirdslides = document.getElementById('test2')
+              var fourthslides = document.getElementById('test3')
+              var fifthslides = document.getElementById('test4')
+              var sixthslides = document.getElementById('test5')
+              if(a === 0){
+                firstslides.style.display = "inline-block"
+                secondslides.style.display = "inline-block"
+                thirdslides.style.display = "none"
+                fourthslides.style.display = "none"
+                fifthslides.style.display = "none"
+              }
+              else if(a === 1){
+                firstslides.style.display = "none"
+                secondslides.style.display = "inline-block"
+                thirdslides.style.display = "inline-block"
+                fourthslides.style.display = "none"
+                fifthslides.style.display = "none"
+              }
+              else if(a === 2){
+                firstslides.style.display = "none"
+                secondslides.style.display = "none"
+                thirdslides.style.display = "inline-block"
+                fourthslides.style.display = "inline-block"
+                fifthslides.style.display = "none"
+              }
+              else if(a === 4){
+                firstslides.style.display = "none"
+                secondslides.style.display = "none"
+                thirdslides.style.display = "none"
+                fourthslides.style.display = "inline-block"
+                fifthslides.style.display = "inline-block"
+                
+              }
+              else if(a===5){
+                a = 0;
+              }
+
+              console.log(a);
+              }
+              function leftshowhide(){
+              a--
+              var firstslides = document.getElementById('test0')
+              var secondslides = document.getElementById('test1')
+              var thirdslides = document.getElementById('test2')
+              var fourthslides = document.getElementById('test3')
+              var fifthslides = document.getElementById('test4')
+              if(a === -1){
+                a=0
+              }
+              if(a === 0){
+                firstslides.style.display = "inline-block"
+                secondslides.style.display = "inline-block"
+                thirdslides.style.display = "none"
+                fourthslides.style.display = "none"
+                fifthslides.style.display = "none"
+                
+              }
+              if(a === 1){
+                firstslides.style.display = "none"
+                secondslides.style.display = "inline-block"
+                thirdslides.style.display = "inline-block"
+                fourthslides.style.display = "none"
+                fifthslides.style.display = "none"
+                
+              }
+              if(a === 2){
+                firstslides.style.display = "none"
+                secondslides.style.display = "none"
+                thirdslides.style.display = "inline-block"
+                fourthslides.style.display = "inline-block"
+                fifthslides.style.display = "none"
+                
+              }
+              if(a === 3){
+                firstslides.style.display = "none"
+                secondslides.style.display = "none"
+                thirdslides.style.display = "none"
+                fourthslides.style.display = "inline-block"
+                fifthslides.style.display = "inline-block"
+              
+              }
+              }
+
+          
+
+          </script>
+      </div>
+      </div>
+
+</div>
+
+  <div class="Pricing" id="pricing">
+    <h3 class="bottomh2s">Pricing</h3>
+    <hr class="left">
+        
+    <p>          
+    $55 - 30 minute session (20-25 professionally edited photos)
+    <br>
+    $85 - 1 hour session (40-50 professionally edited photos)
+    <br>
+    <br>
+    Payments accepted through Venmo and PayPal, along with hand deliveries of cash and checks.
+    <br>
+    <br>
+    Other Services - Human Shoots (Example photos provided below)<br>
+    Professional Headshots - $25 
+    <br>
+    Graduation Shoots - contact for prices/booking
+    <br>
+    Leisure Shoots - contact for prices/booking 
+
+   
+     </p>  
+  </div>       
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"style="width: 50%;">
+      <div  class="carousel-inner" >
+        <div id="leisurediv" class="carousel-item active" style="width: 90%;">
+          <img id="leisureslides"class="d-block w-100" src="./wetransfer_doggos_2021-09-14_0428/Phodography/Leisure/268A0747.jpg.JPG" width="30%" alt="First slide">
+        
+        <a id="prevbuttonl" class="carousel-control-prev"  role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a id="nextbuttonl" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </div>
+ 
+    
+      </div>
+
+  <!--Contact and Booking-->
+<div class="contactBooking" id="contactbooking">
+  <h3 class="bottomh2s">Booking</h3>
+  <hr class="left">
+
+  <div id="bookingform">
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="email">Email Address</label>
+      <input type="text" id="email" name="email" placeholder="Your email..">
+
+      <label for="shootDetails">Shoot Details</label>
+      <input type="text" id="shootDetails" placeholder="Tell us about who is coming to your shoot! 1 dog 2 humans etc.">
+
+      <label for="specificlocation">Specific Location (Optional)</label>
+      <input type="text" id="specificlocation" name="location" placeholder="Did you have a specific location in mind? Tell us here..">
+
+      <label for="requestdate">Please view the Phodography NC Availability Calendar and select a date and time that works best for you!</label>
+      <input type="datetime-local" id="requestdate" name="requestdate">
+      <input type="submit" id="submitbutton"></input>
+<div class="responsiveCal">
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&title=Phodography%20NC%20Availability&mode=WEEK&showTz=0&showPrint=0&src=cGhvZG9ncmFwaHluYzcwNEBnbWFpbC5jb20&color=%23039BE5"
+   style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
+    </div>
+      
+    </form>
+
+  <script>
+  var submit = document.getElementById('submitbutton');
+    submit.addEventListener("click", function(){
+      event.preventDefault();
+      var firstname = document.getElementById("fname").value;
+      var lastname = document.getElementById("lname").value;
+      console.log(firstname)
+      var email = document.getElementById("email").value;
+      var shootdetails = document.getElementById("shootDetails").value;
+      var specificlocation = document.getElementById("specificlocation").value;
+      var requestdate = document.getElementById("requestdate").value;
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "phodographync704@gmail.com",
+        Password: "BellaBear2021",
+        To: 'phodographync704@gmail.com',
+        From: "phodographync704@gmail.com",
+        Subject: `${firstname} ${lastname}'s Phodography NC request`,
+        Body: `
+        Client Information Name:  ${firstname}  ${lastname} 
+         Email Address: ${email}  
+         Shoot Details: ${shootdetails}  
+         Specific Location: ${specificlocation}
+         Request Date: ${requestdate}` ,
+      })
+        .then(function (message) {
+          alert("Request has been sent to Phodography NC you will hear back soon!")
+        });
+    })
+    </script>
+  </form>
+
+</div>
+  <script src="./Java Script/java.js"></script>
+</body>
+</html>
